@@ -2,13 +2,7 @@
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
-export default function Banana() {
-    const [loading, setLoading] = useState(true);
-
-    useEffect(() => {
-        setLoading(false);
-    });
-
+export default function Page() {
     return (
         <>
             {/* loading && <LoadingScreen /> */}
@@ -17,8 +11,8 @@ export default function Banana() {
                     <div className='flex justify-center pb-16'>
                         <Image
                             className='relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]'
-                            src='/images/banana.png'
-                            alt='Banana Logo'
+                            src='/images/logo.svg'
+                            alt='Imposter Logo'
                             width={180}
                             height={37}
                             priority

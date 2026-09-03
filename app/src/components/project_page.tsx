@@ -7,13 +7,13 @@ export default function ProjectPage() {
             <div className='relative'>
                 <Image
                     className='relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] mb-5'
-                    src='/images/banana.png'
-                    alt='Banana Logo'
+                    src='/images/logo.svg'
+                    alt='Imposter Logo'
                     width={180}
                     height={37}
                     priority
                 />
-                <a href='https://play.google.com/store/apps/details?id=com.zrilich.banana'>
+                <a href='https://play.google.com/store/apps/details?id=com.zrilich.imposter'>
                     <Image
                         className='relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]'
                         src='/images/gp.png'
