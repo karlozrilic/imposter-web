@@ -5,7 +5,6 @@ import Image from 'next/image';
 export default function Page() {
     return (
         <>
-            {/* loading && <LoadingScreen /> */}
             <main className='flex min-h-screen flex-col items-center justify-center pt-24 pb-10 p-4'>
                 <div className='max-w-3xl w-full'>
                     <div className='flex justify-center pb-16'>
