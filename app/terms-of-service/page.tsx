@@ -21,10 +21,10 @@ export default function Page() {
                     </h1>
                     <div className='space-y-8 text-left'>
                         <p className='text-lg text-primary'>
-                            Effective Date: May 4, 2026
+                            Effective Date: September 3, 2026
                         </p>
                         <p className='text-lg text-primary'>
-                            Welcome to Banana! By using this app, you agree to these Terms of Service.
+                            Welcome to Imposter! By using this app, you agree to these Terms of Service.
                             Please read them carefully.
                         </p>
                         <section className='space-y-4'>
@@ -47,7 +47,26 @@ export default function Page() {
                         </section>
                         <section className='space-y-4'>
                             <h2 className='text-2xl font-bold text-primary'>
-                                3. No Warranties
+                                3. Advertising
+                            </h2>
+                            <p className='text-lg text-primary'>
+                                Imposter is free to play and is supported by ads shown through Google AdMob.
+                                By using the app, you agree to the display of these ads.
+                            </p>
+                        </section>
+                        <section className='space-y-4'>
+                            <h2 className='text-2xl font-bold text-primary'>
+                                4. Online Play
+                            </h2>
+                            <p className='text-lg text-primary'>
+                                A future update will add an Online mode, letting you play with other players over the internet instead of sharing one device.
+                                When Online mode is available, you agree not to use it to harass, abuse, or send unlawful or offensive content to other players.
+                                We may suspend access to Online mode for anyone who misuses it.
+                            </p>
+                        </section>
+                        <section className='space-y-4'>
+                            <h2 className='text-2xl font-bold text-primary'>
+                                5. No Warranties
                             </h2>
                             <p className='text-lg text-primary'>
                                 The app is provided "as is" without any warranties.
@@ -56,7 +75,7 @@ export default function Page() {
                         </section>
                         <section className='space-y-4'>
                             <h2 className='text-2xl font-bold text-primary'>
-                                4. Limitation of Liability
+                                6. Limitation of Liability
                             </h2>
                             <p className='text-lg text-primary'>
                                 We are not liable for any damages or losses resulting from your use of the app.
@@ -65,7 +84,7 @@ export default function Page() {
                         </section>
                         <section className='space-y-4'>
                             <h2 className='text-2xl font-bold text-primary'>
-                                5. User Conduct
+                                7. User Conduct
                             </h2>
                             <p className='text-lg text-primary'>
                                 You agree not to misuse the app, reverse-engineer its code, or use it to harm others or collect data unlawfully.
@@ -73,7 +92,7 @@ export default function Page() {
                         </section>
                         <section className='space-y-4'>
                             <h2 className='text-2xl font-bold text-primary'>
-                                6. Termination
+                                8. Termination
                             </h2>
                             <p className='text-lg text-primary'>
                                 We may suspend or terminate your access to the app at any time, without notice, if you violate these terms.
@@ -81,18 +100,19 @@ export default function Page() {
                         </section>
                         <section className='space-y-4'>
                             <h2 className='text-2xl font-bold text-primary'>
-                                7. Changes to Terms
+                                9. Changes to Terms
                             </h2>
                             <p className='text-lg text-primary'>
-                                We may update these Terms of Service at any time. If changes are significant, we will notify you in the app or on our website.
+                                We may update these Terms of Service at any time, including once Online mode is released.
+                                If changes are significant, we will notify you in the app or on our website.
                             </p>
                         </section>
                         <section className='space-y-4'>
                             <h2 className='text-2xl font-bold text-primary'>
-                                8. Contact
+                                10. Contact
                             </h2>
                             <p className='text-lg text-primary'>
-                                If you have any questions about these Terms, contact us using one of provided channels in the app or on our website.
+                                If you have any questions about these Terms, contact us using one of the provided channels in the app or on our website.
                             </p>
                         </section>
                     </div>
