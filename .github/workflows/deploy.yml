@@ -1,0 +1,60 @@
+name: Build & Deploy
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Remove cache
+        run: rm -rf node_modules/.cache
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: 'npm'
+
+      - name: Remove LightningCSS before build
+        run: rm -rf node_modules/lightningcss
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build static site
+        id: build
+        env:
+          NEXT_PRIVATE_STABLE_COMPILER: "swc"
+          NEXT_TELEMETRY_DISABLED: "1"
+          NEXT_DISABLE_LIGHTNINGCSS: "true"
+          NEXT_EXPERIMENTAL_OPTIMIZE_CSS: "false"
+          NEXT_PRIVATE_LOCAL_WEBPACK: "true"
+        run: npm run build
+
+      - name: Upload static files as artifact
+        id: deployment
+        uses: actions/upload-pages-artifact@v3
+        with:
+          name: github-pages
+          path: out/
+  
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
