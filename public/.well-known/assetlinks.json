@@ -1,15 +1,11 @@
 [
   {
-    "relation": [
-      "delegate_permission/common.handle_all_urls",
-      "delegate_permission/common.get_login_creds"
-    ],
+    "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
       "package_name": "com.zrilich.imposter",
-      "sha256_cert_fingerprints": [
-        "68:07:E6:81:F5:97:1C:02:A3:FF:C9:B3:6E:85:1F:1F:17:C9:6B:BF:1C:97:E5:75:24:5A:A8:1F:EB:C1:BB:D8"
-      ]
+      "sha256_cert_fingerprints":
+        ["69:CD:3C:7E:8C:86:84:47:31:97:3F:BC:2C:C4:00:4A:16:90:45:3A:8B:33:0D:F5:8C:EE:6F:E0:3B:19:D0:4C"]
     }
   }
 ]
