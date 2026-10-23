@@ -5,7 +5,13 @@
       "namespace": "android_app",
       "package_name": "com.zrilich.imposter",
       "sha256_cert_fingerprints":
-        ["69:CD:3C:7E:8C:86:84:47:31:97:3F:BC:2C:C4:00:4A:16:90:45:3A:8B:33:0D:F5:8C:EE:6F:E0:3B:19:D0:4C"]
+        [
+          "69:CD:3C:7E:8C:86:84:47:31:97:3F:BC:2C:C4:00:4A:16:90:45:3A:8B:33:0D:F5:8C:EE:6F:E0:3B:19:D0:4C",
+          "7D:57:BD:F0:FC:9B:92:F2:70:8A:FD:C9:D5:F7:37:3E:E2:EC:00:04:B8:13:BA:58:6E:2C:53:C4:51:8A:B2:33",
+          "F7:8C:51:B8:58:A2:47:52:34:67:40:31:F7:B1:8D:96:7E:C0:D9:97:54:4F:B7:0A:B8:8E:D0:D7:CB:06:1A:9F",
+          "75:21:D2:44:0E:3B:2E:AE:75:54:CC:4B:94:2F:D4:8F:4A:AE:A6:0D:93:6F:DB:B8:B4:35:F3:D6:CF:7F:73:3A",
+          "6C:F6:6C:AD:8D:2F:83:F8:3D:3F:A8:C2:84:55:D8:8D:46:1A:DF:33:9C:10:8A:90:5E:F5:DC:05:69:F2:A7:5E"
+        ]
     }
   }
 ]
